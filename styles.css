@@ -240,7 +240,7 @@ div.text-main{
     }
 
     header{
-        width:100%;
+        width:auto;
         height:45px;
         display: flex;
         justify-content: space-around;
@@ -252,7 +252,7 @@ div.text-main{
         align-items: center;
         padding-inline-start: 0;
         margin-block: 0;
-        justify-content: space-evenly;
+        justify-content: center;
         list-style-type: none;
     }
     

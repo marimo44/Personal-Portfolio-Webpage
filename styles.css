@@ -362,6 +362,10 @@ div.text-main{
 */
 
 @media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
     header{
         width: 100vw;
     }

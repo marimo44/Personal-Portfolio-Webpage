@@ -95,7 +95,7 @@ li>a:hover{
 
 section.welcome-section{
     height:100vh;
-    background-image:url('bg.svg');
+    background-image:url("C:/Users/USER/Desktop/Coding/HTML CSS/Personal Portfolio Webpage/layered-waves-haikei.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +146,7 @@ h4{
 
 .grid-item.grid-text.align-left{
     text-align: left;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 
 .grid-item.grid-text.align-right{
@@ -234,12 +234,21 @@ div.text-main{
 }
 
 @media screen and (max-width: 800px) {
+    section.welcome-section{
+        height:100vh;
+        width: 100%;
+    }
+
     .grid-container{
         grid-template-columns: 1fr;
     }
 
+    .grid-item.grid-img{
+        transform: scale(0.5);
+    }
+
     h1.name{
-        font-size:  64px;
+        font-size:  58px;
     }
 
     h2.sub-text{
@@ -254,11 +263,78 @@ div.text-main{
         font-size:16px;
     }
 
-    .big-text{
-        font-size: 3rem;
+
+    section#about-me{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        height:auto;
+        width: 100%;
     }
 
     .ellipse{
-        transform: scale(0.7);
+        transform: scale(0.5);
+        margin-top: -110px;
+    }
+
+    div.avatar-section{
+        width:100%;
+    }
+    
+    div.text-main{
+        width:100%;
+    }
+    
+    .text-section{
+        width:80%;
+        height:auto;
+        margin-top: -40px;
+        border-radius: 47px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
+    #contact{
+        height: auto;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px 50px 0 0;
+        margin: 0;
+        padding: 30px 0 10px 0;
+    }
+
+    .contact-text{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .big-text{
+        font-size: 2rem;
+    }
+
+    .contact-text p{
+        font-size: 1rem;
+        font-weight: 500;
+        
+    }
+
+    #icons svg{
+        transform: scale(0.5);
+        margin-top: 20px;
+        
+    }
+
+    #icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 }
+

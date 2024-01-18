@@ -247,13 +247,7 @@ div.text-main{
         align-items: center;
     }
 
-    #hero-icon{
-        width: fit-content;
-    }
-
-    nav{
-        text-align: center;
-    }
+    
 
     nav >ul{
         display: flex;

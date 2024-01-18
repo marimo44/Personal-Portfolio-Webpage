@@ -232,14 +232,19 @@ div.text-main{
     margin-left: 50px;
 }
 
+
 .icons{
-    margin-right:25px;
+    margin: 0 20px;
 }
+
 
 #icons{
     display: flex;
     justify-content: right;
     align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    
     
 }
 
@@ -357,17 +362,19 @@ div.text-main{
 */
 
 @media screen and (max-width: 800px) {
+    header{
+        width: 100vw;
+    }
+
     section.welcome-section{
         height:100vh;
         width: 100%;
     }
 
-    
-    
 
     .grid-container{
         grid-template-columns: 1fr;
-        row-gap: 15px;
+        row-gap: 5px;
     }
 
     .grid-item.grid-img{

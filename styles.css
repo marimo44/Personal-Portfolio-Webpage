@@ -25,10 +25,13 @@ html{
     color:var(--rustyRed);
 }
 
+html, body {
+    overflow-x: hidden;
+  }
 
 body{    
     background-color: var(--offWhite);
-    width:100vw;
+    position: relative;
 }
 
 
